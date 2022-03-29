@@ -41,7 +41,7 @@ public class AffichActivity extends AppCompatActivity{
     private RecyclerView recycle;
     private FloatingActionButton addItem;
     RequestQueue requestQueue;
-    String loadUrl = "http://192.168.100.4/project/ws/loadEtudiant.php";
+    String loadUrl = "http://192.168.100.187/project/ws/loadEtudiant.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

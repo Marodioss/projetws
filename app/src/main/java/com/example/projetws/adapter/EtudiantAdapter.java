@@ -47,7 +47,7 @@ public class EtudiantAdapter extends RecyclerView.Adapter<EtudiantAdapter.Etudia
     private LayoutInflater inflater;
     private Context context;
     RequestQueue requestQueue;
-    String deleteUrl = "http://192.168.100.4/project/ws/deleteEtudiant.php";
+    String deleteUrl = "http://192.168.100.187/project/ws/deleteEtudiant.php";
 
     public EtudiantAdapter(Context context, List<Etudiant> etudiants) {
         this.etudiants = etudiants;
